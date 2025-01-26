@@ -1,14 +1,9 @@
 # Multi-Container Project
 
-This project demonstrates a multi-container setup using Docker. It consists of:
+This project demonstrates a multi-container environment using Docker. It consists of:
 
-1. **Flask App**: A web application that serves a dynamically styled HTML page with a visitor counter.
+1. **Flask App**: A custom web application that serves an HTML page with a visitor counter.
 2. **Redis Container**: A Redis service used to store and increment the visitor count.
-
-## Prerequisites
-
-1. Install [Docker](https://www.docker.com/) on your machine.
-2. Install [Docker Compose](https://docs.docker.com/compose/) (included with Docker Desktop).
 
 ## How to Run the Project
 
@@ -28,17 +23,9 @@ This project demonstrates a multi-container setup using Docker. It consists of:
 
 4. Refresh the page to see the visitor count increase.
 
-## Stopping the Project
-
-To stop the containers, press `Ctrl+C` in the terminal or run:
-```bash
-sudo docker-compose down
-```
-
 ## Notes
 
 - **Docker Hub**: The custom Flask app image is hosted on Docker Hub: [angelostzourtzis/testcontainer](https://hub.docker.com/r/angelostzourtzis/testcontainer).
-- **Redis**: Redis is used as a key-value store to manage the visitor count.
 
 ## Project Structure
 
