@@ -7,7 +7,7 @@ This project demonstrates a multi-container environment using Docker. It consist
 
 ## How to Run the Project
 
-1. Clone this repository: (make sure you have downloaded git)
+1. Clone this repository:
    ```bash
    git clone https://github.com/Tzourtzis/ContainerProject.git
    cd ContainerProject
